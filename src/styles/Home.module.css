@@ -1,0 +1,59 @@
+
+.container {
+    padding: 20px;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+}
+
+.search {
+    margin-bottom: 20px;
+}
+
+.input {
+    padding: 10px;
+    font-size: 16px;
+    margin-right: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 300px;
+}
+
+.button {
+    padding: 10px 15px;
+    font-size: 14px;
+    background-color: #7CFC00;
+    color: black;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 300px;
+}
+
+.button:hover {
+    background-color: #7CFC00;
+}
+
+.error {
+    color: red;
+}
+
+.results {
+    text-align: center; 
+     
+}
+
+.profile {
+    border: 2px solid black;
+    border-radius: 5px;
+    margin: 10px auto;
+    text-align: center;
+    width: 700px;
+    overflow: hidden; 
+    padding: 15px;
+}
+
+.profile img {
+    max-height: 80px;
+    max-width: 80px; 
+    object-fit: contain;
+}
